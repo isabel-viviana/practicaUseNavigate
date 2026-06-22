@@ -11,10 +11,9 @@ function Nav() {
 
     return (
         <div className= 'Nav'>
-            <h1>soy el Nav</h1>
-
-            <button onClick={irContact}>Ir a Contacto</button>
-
+            <h1>Sección de navegación</h1>
+            <p>Desde aquí puedes ir directamente a la página de contacto.</p>
+            <button onClick={irContact}>Ir a la página de contacto</button>
         </div>
     )
 }

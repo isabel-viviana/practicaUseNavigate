@@ -1,0 +1,37 @@
+.Home {
+  padding: 40px 30px;
+  max-width: 700px;
+  margin: 40px auto;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #FFE3F2 0%, #E4F7FF 100%);
+  box-shadow: 0 8px 20px rgba(101, 84, 143, 0.12);
+  text-align: center;
+}
+
+.Home h1 {
+  color: #5A4A7F;
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+
+.Home p {
+  color: #5A4A7F;
+  margin-bottom: 22px;
+}
+
+.Home button {
+  margin: 0 10px 10px 0;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #FFB3D9 0%, #FFD1E8 100%);
+  color: #5A4A7F;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Home button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(255, 179, 217, 0.25);
+}
