@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #FFEAF3 0%, #E8FFF4 100%);
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App {
+  flex: 1;
+  padding: 30px 20px 60px 20px;
+  background: linear-gradient(180deg, #FFF0F6 0%, #E8FFF4 100%);
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0 8px 30px rgba(90,74,127,0.06);
+}
+
+.page-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
